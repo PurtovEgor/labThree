@@ -1,0 +1,14 @@
+.buttonns{
+    border: 1px solid black;
+}
+.tablestyle{
+    margin-top: 2em;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.rowstyle{
+    border-bottom: 1px solid black;
+}
+.tdstyle{
+    border: 1px solid black;
+}

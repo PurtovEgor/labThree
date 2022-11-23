@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="buttons">
+        <button onclick="Addtable()" id="btn1">Создать таблицу</button>
+        <button onclick="AddRow()" id="btn2" disabled>Добавить строчку</button>
+        <button onclick="RemoveRow()" id="btn3" disabled>Удалить строчку</button>
+        <input type="number" id="count" min="1" value="1" disabled>
+        <input type="hidden" id="count_hidden" min="1" value="0">
+    </div>
+</body>
+</html>
